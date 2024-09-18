@@ -2,22 +2,21 @@ import Image from 'next/image';
 import React from 'react';
 
 export default function Skills() {
-    const images = ["/react-removebg-preview.png",
-        "/58480979cef1014c0b5e4901-removebg-preview.png",
-        "/download__2_-removebg-preview.png",
-        "/nextjs-boilerplate-logo-removebg-preview.png",
-        "/download__3_-removebg-preview.png",
-        "/js-removebg-preview.png",
-        "/css-removebg-preview.png",
-        "/download__3_-removebg-preview.png",
-        "/tailwind-removebg-preview.png",
-        "/html-removebg-preview.png",
-        "/react-removebg-preview.png",
-        "/download__2_-removebg-preview.png",
-        "/download__5_-removebg-preview.png",
-        "/js-removebg-preview.png",
-        "/nextjs-boilerplate-logo-removebg-preview.png",
-        "/58480979cef1014c0b5e4901-removebg-preview.png"
+    const images = ["/react-image.png",
+        "/java-logo.png",
+        "/nodejs-logo.png",
+        "/nextjs-logo.png",
+        "/jquery-logo.png",
+        "/js-logo.png",
+        "/css-logo.png",
+        "/jquery-logo.png",
+        "/tailwind-logo.png",
+        "/html-logo.png",
+        "/react-logo.png",
+        "/redux-logo.png",
+        "/js-logo.png",
+        "/nextjs-logo.png",
+        "/java-logo.png"
     ]
     return (
         <div className='pb-40 pt-20'>

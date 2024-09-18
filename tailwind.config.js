@@ -11,6 +11,12 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        playwrite: ['Playwrite Cuba'],
+
+      }, gradientColorStopPositions: {
+        33: '33%',
+      }
     },
   },
   plugins: [],
