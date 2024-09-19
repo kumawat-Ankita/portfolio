@@ -5,7 +5,7 @@ const Projects = () => {
 
     const projectData = [{
         link: "https://sound-cloud-music-clone-react-project-1-drbdz4ox1jwn.vercel.app/",
-        src: "/Screenshot.png",
+        src: "/soundcloud.png",
         title: "SoundCloud Music Clone",
         description: "SoundCloud music clone is utilizing industry-standard encryption to secure user data and ensure a smooth login and registration experience. Leveraged Authentication API to enhance security and streamline user authentication.Developed a 'Favourite' feature allowing users to save preferred tracks and playlists for easy access, and integrated",
     },
