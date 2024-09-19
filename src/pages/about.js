@@ -1,13 +1,5 @@
-"use client";
-
-import { useRouter } from "next/navigation";
+import Link from "next/link";
 export default function About() {
-    const router = useRouter();
-
-    const moveToProject = () => {
-        router.push('/#project');
-    };
-
     return (
         <>
             <div className='p-20 m-4 text-white'>
@@ -23,9 +15,7 @@ export default function About() {
                     I specialize in crafting engaging web applications for optimal user experiences.
                     Committed to ongoing learning and development in web development.
                 </p>
-                <button onClick={moveToProject} className='border-2 border-slate-600 rounded-3xl pl-4 pr-4 p-2 shadow-inner shadow-slate-600'>
-                    See My Projects
-                </button>
+                <Link href='#project' className="border-2 border-slate-600 rounded-3xl pl-4 pr-4 p-2 shadow-inner shadow-slate-600">See My Project</Link>
             </div>
         </>
     );

@@ -40,10 +40,7 @@ const Projects = () => {
                     projectData.map((project, index) => (
                         <ProjectCard
                             key={index}
-                            link={project.link}
-                            src={project.src}
-                            title={project.title}
-                            description={project.description}
+                            {...project}
                         />
                     ))
                 }

@@ -5,22 +5,15 @@ import Skills from "@/pages/skills";
 import Footer from "@/pages/footer";
 export default function Home() {
   return (
-    <div style={{
-      backgroundImage: `url('/photo-15.avif')`,
-      width: '100vw',
-      height: '100vh', /* Make the height larger than the viewport to allow scrolling */
-      backgroundSize: 'cover',
-      backgroundPosition: 'center',
-      backgroundRepeat: 'no-repeat',
-      overflowY: 'scroll', /* Allow scrolling */
-      scrollbarWidth: 'none' /* For Firefox */
-    }}
+    <div
+      className="w-screen h-screen bg-cover bg-center bg-no-repeat overflow-y-scroll"
+      style={{ backgroundImage: `url('/photo-15.avif')` }}
     >
       <Navbar />
       <div id="about">
         <About />
       </div>
-      <div id="skills" style={{ transform: "scale(0.9" }}>
+      <div id="skills" >
         <Skills />
       </div>
       <div id="project">
