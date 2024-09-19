@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -11,6 +12,13 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        playwrite: ['Playwrite Cuba', 'serif'],
+        dancing: ['Dancing Script', 'cursive'],
+      }, gradientColorStopPositions: {
+        33: '33%',
+      }
+
     },
   },
   plugins: [],
